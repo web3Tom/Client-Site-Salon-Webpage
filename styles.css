@@ -1,0 +1,914 @@
+body {
+  background: #ffffff;
+  font-family: "Nunito Sans", Sans-Serif;
+}
+
+.about-p {
+  font-size: 16px;
+  letter-spacing: 1.3px;
+  line-height: 1.5rem;
+}
+
+.about-p strong {
+  font-size: 22px;
+  font-weight: 900;
+  padding-right: 10px;
+}
+
+// @media only screen and (max-width: 1150px) {
+//   #col-a8IB8nOqW {
+//     width: 500px;
+//   }
+
+//   .sub-heading-p1Aq1DmIy h2,
+//   .sub-heading-0sr7seVQQ h2,
+//   .sub-heading-WSs1k6mNu h2 {
+//     font-size: 30px !important;
+//   }
+
+//   .paragraph-64RoE8l3X p,
+//   .paragraph-3NQ1zdRgS p,
+//   .paragraph-ufB89rstV p {
+//     font-size: 12px !important;
+//   }
+// }
+
+// GALLERY CSS
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .container--gallery {
+//   width: 100%;
+//   height: 100%;
+// }
+
+// .trans {
+//   transition: all 1s ease;
+//   -moz-transition: all 1s ease;
+//   -ms-transition: all 1s ease;
+//   -o-transition: all 1s ease;
+//   -webkit-transition: all 1s ease;
+// }
+
+// .top {
+//   display: flex;
+//   width: 1368px;
+//   height: auto;
+//   margin-top: 100px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   // margin-bottom: 10vh;
+// }
+
+// .top ul {
+//   list-style: none;
+//   width: 100%;
+//   height: 100%;
+//   z-index: 1;
+//   box-sizing: border-box;
+// }
+// .top ul li {
+//   position: relative;
+//   box-sizing: border-box;
+//   float: left;
+//   width: 20%;
+//   aspect-ratio: 13 / 16;
+//   overflow: hidden;
+//   padding: 10px;
+// }
+
+// .top ul li::before {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: #000;
+//   content: "";
+//   color: white;
+//   opacity: 0.4;
+//   text-align: center;
+//   box-sizing: border-box;
+//   pointer-events: none;
+//   transition: all 0.5s ease;
+//   -moz-transition: all 0.5s ease;
+//   -ms-transition: all 0.5s ease;
+//   -o-transition: all 0.5s ease;
+//   -webkit-transition: all 0.5s ease;
+// }
+
+// .top ul li:hover::before {
+//   opacity: 0;
+//   background-color: rgba(0, 0, 0, 0.9);
+// }
+
+// .top ul li img {
+//   width: 100%;
+//   height: auto;
+//   overflow: hidden;
+// }
+
+// .lightbox {
+//   position: fixed;
+//   width: 100%;
+//   height: 100%;
+//   text-align: center;
+//   top: 0;
+//   left: 0;
+//   background-color: rgba(0, 0, 0, 0.75);
+//   z-index: 999;
+//   opacity: 0;
+//   pointer-events: none;
+// }
+
+// .lightbox img {
+//   max-width: 90%;
+//   max-height: 80%;
+//   position: relative;
+//   top: -100%;
+//   /* Transition */
+//   transition: all 1s ease;
+//   -moz-transition: all 1s ease;
+//   -ms-transition: all 1s ease;
+//   -o-transition: all 1s ease;
+//   -webkit-transition: all 1s ease;
+// }
+
+// .lightbox:target {
+//   outline: none;
+//   top: 0;
+//   opacity: 1;
+//   pointer-events: auto;
+//   transition: all 1.2s ease;
+//   -moz-transition: all 1.2s ease;
+//   -ms-transition: all 1.2s ease;
+//   -o-transition: all 1.2s ease;
+//   -webkit-transition: all 1.2s ease;
+// }
+
+// .lightbox:target img {
+//   top: 0;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   -moz-transform: translateY(-50%);
+//   -ms-transform: translateY(-50%);
+//   -o-transform: translateY(-50%);
+//   -webkit-transform: translateY(-50%);
+// }
+
+// @media only screen and (max-width: 1380px) {
+//   .top {
+//     width: 1095px;
+//   }
+//   .top ul li {
+//     width: 25%;
+//   }
+// }
+
+// @media only screen and (max-width: 1100px) {
+//   .top {
+//     width: 821px;
+//   }
+//   .top ul li {
+//     width: 33.33%;
+//   }
+// }
+
+// @media only screen and (max-width: 835px) {
+//   .top {
+//     width: 548px;
+//   }
+//   .top ul li {
+//     width: 50%;
+//   }
+// }
+
+// @media only screen and (max-width: 550px) {
+//   .top {
+//     width: 275px;
+//   }
+//   .top ul li {
+//     width: 100%;
+//   }
+// }
+
+// GALLERY HTML
+// <div class="container--gallery">
+//       <div class="top">
+//         <ul>
+//           <li>
+//             <a href="#img_1"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb74cb1c4e1129b5d9d9a.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb74cb1c4e1129b5d9d9a.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_2"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75418353225816f0e4d.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75418353225816f0e4d.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_3"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75918353215516f0e4e.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75918353215516f0e4e.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_4"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75c183532462c6f0e4f.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75c183532462c6f0e4f.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_5"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75fb1c4e1808e5d9d9b.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75fb1c4e1808e5d9d9b.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_6"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb762b1c4e19cc55d9d9c.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb762b1c4e19cc55d9d9c.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_7"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7663128b2482f93bc32.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7663128b2482f93bc32.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_8"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb76a3128b29f2193bc33.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb76a3128b29f2193bc33.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_9"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb76e18353255db6f0e50.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb76e18353255db6f0e50.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_10"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb772183532d0b36f0e51.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb772183532d0b36f0e51.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_11"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb777b1c4e162005d9d9d.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb777b1c4e162005d9d9d.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_12"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb77b183532a7036f0e8a.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb77b183532a7036f0e8a.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_13"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb77e3128b2750c93bc3d.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb77e3128b2750c93bc3d.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_14"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb78318353254db6f0e92.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb78318353254db6f0e92.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_15"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7881835323a1d6f0e93.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7881835323a1d6f0e93.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_16"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb78db1c4e12ef15d9dae.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb78db1c4e12ef15d9dae.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_17"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7923128b2dc0993bc4c.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7923128b2dc0993bc4c.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_18"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb796b1c4e12b455d9daf.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb796b1c4e12b455d9daf.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_19"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb79ab1c4e1467b5d9db7.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb79ab1c4e1467b5d9db7.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_20"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb79e3128b244a993bc61.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb79e3128b244a993bc61.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_21"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7a31835320d5d6f0eb2.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7a31835320d5d6f0eb2.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_22"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7a8b1c4e15ee35d9ddb.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7a8b1c4e15ee35d9ddb.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_23"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7ac18353284e46f0ed6.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7ac18353284e46f0ed6.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_24"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7b13128b2689c93bc72.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7b13128b2689c93bc72.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//           <li>
+//             <a href="#img_25"
+//               ><img
+//                 alt
+//                 data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7b63128b2e0c093bc7c.png"
+//                 src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7b63128b2e0c093bc7c.png"
+//                 loading="lazy"
+//                 class="lazyload"
+//             /></a>
+//           </li>
+//         </ul>
+//         <a href="#_1" class="lightbox trans" id="img_1"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb74cb1c4e1129b5d9d9a.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb74cb1c4e1129b5d9d9a.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_2" class="lightbox trans" id="img_2"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75418353225816f0e4d.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75418353225816f0e4d.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_3" class="lightbox trans" id="img_3"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75918353215516f0e4e.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75918353215516f0e4e.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_4" class="lightbox trans" id="img_4"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75c183532462c6f0e4f.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75c183532462c6f0e4f.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_5" class="lightbox trans" id="img_5"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75fb1c4e1808e5d9d9b.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb75fb1c4e1808e5d9d9b.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_6" class="lightbox trans" id="img_6"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb762b1c4e19cc55d9d9c.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb762b1c4e19cc55d9d9c.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_7" class="lightbox trans" id="img_7"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7663128b2482f93bc32.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7663128b2482f93bc32.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_8" class="lightbox trans" id="img_8"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb76a3128b29f2193bc33.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb76a3128b29f2193bc33.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_9" class="lightbox trans" id="img_9"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb76e18353255db6f0e50.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb76e18353255db6f0e50.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_10" class="lightbox trans" id="img_10"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb772183532d0b36f0e51.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb772183532d0b36f0e51.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_11" class="lightbox trans" id="img_11"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb777b1c4e162005d9d9d.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb777b1c4e162005d9d9d.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_12" class="lightbox trans" id="img_12"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb77b183532a7036f0e8a.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb77b183532a7036f0e8a.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_13" class="lightbox trans" id="img_13"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb77e3128b2750c93bc3d.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb77e3128b2750c93bc3d.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_14" class="lightbox trans" id="img_14"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb78318353254db6f0e92.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb78318353254db6f0e92.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_15" class="lightbox trans" id="img_15"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7881835323a1d6f0e93.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7881835323a1d6f0e93.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_16" class="lightbox trans" id="img_16"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb78db1c4e12ef15d9dae.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb78db1c4e12ef15d9dae.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_17" class="lightbox trans" id="img_17"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7923128b2dc0993bc4c.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7923128b2dc0993bc4c.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_18" class="lightbox trans" id="img_18"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb796b1c4e12b455d9daf.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb796b1c4e12b455d9daf.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_19" class="lightbox trans" id="img_19"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb79ab1c4e1467b5d9db7.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb79ab1c4e1467b5d9db7.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_20" class="lightbox trans" id="img_20"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb79e3128b244a993bc61.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb79e3128b244a993bc61.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_21" class="lightbox trans" id="img_21"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7a31835320d5d6f0eb2.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7a31835320d5d6f0eb2.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_22" class="lightbox trans" id="img_22"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7a8b1c4e15ee35d9ddb.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7a8b1c4e15ee35d9ddb.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_23" class="lightbox trans" id="img_23"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7ac18353284e46f0ed6.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7ac18353284e46f0ed6.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_24" class="lightbox trans" id="img_24"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7b13128b2689c93bc72.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7b13128b2689c93bc72.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//         <a href="#_25" class="lightbox trans" id="img_25"
+//           ><img
+//             alt
+//             data-src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7b63128b2e0c093bc7c.png"
+//             src="https://storage.googleapis.com/msgsndr/cWDyHOpYJ4HqQL4JOarY/media/629eb7b63128b2e0c093bc7c.png"
+//             loading="lazy"
+//             class="lazyload"
+//         /></a>
+//       </div>
+//     </div>
+
+// PRICING CSS
+// .wrapper-pricing {
+//   font-family: "Roboto", Sans-Serif;
+//   font-size: 14px;
+//   color: #707070;
+//   display: block;
+//   box-sizing: border-box;
+//   width: 550px;
+//   max-width: 600px;
+//   line-height: 1.8em;
+//   padding-top: 20px;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// .pricing-sub-item {
+//   display: table;
+//   box-sizing: border-box;
+//   white-space: nowrap;
+//   font-size: 14px;
+//   text-size-adjust: 100%;
+//   width: 100%;
+//   margin-bottom: 15px;
+// }
+
+// .pricing-description,
+// .pricing-dots,
+// .pricing-pricing {
+//   display: table-cell;
+//   width: auto;
+//   padding: 0px;
+// }
+
+// .pricing-description {
+//   text-align: left;
+//   width: 5%;
+//   color: #000000;
+// }
+
+// .pricing-dots {
+//   border-bottom: 1px dashed rgb(85, 85, 85);
+//   width: auto;
+// }
+
+// .pricing-pricing {
+//   width: 5%;
+//   font-weight: bold;
+//   text-align: right;
+//   color: #008985;
+// }
+
+// PRICING HTML
+// <div class="wrapper-pricing">
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Senior Cuts</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$20</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Woman's Cuts</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$25</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Men's Cuts</p>
+//             <p class="pricing-dots">&nbsp;</p>
+//             <p class="pricing-pricing">$15 / $20</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Kid's Cuts</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$20</p>
+//         </div>
+//         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Shampoo and Cut</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$25</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Wash Cut and Blowout</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$40</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Blow Out</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$30</p>
+//         </div>
+//         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Single Process Color</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$60</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Color Cut Blow Out</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$80</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Full Head Highlights</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$130+</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Half Head Highlights</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$95+</p>
+//         </div>
+//         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Keritan Treatment</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$150+</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Partial Perm</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$65+</p>
+//         </div>
+//         <div class="pricing-sub-item">
+//             <p class="pricing-description">Perm</p>
+//             <p class="pricing-dots"></p>
+//             <p class="pricing-pricing">$80+</p>
+//         </div>
+//     </div>
+
+// // NAV MENU HOVER EFFECT CSS
+// .wrapper {
+//   display: block;
+//   box-sizing: border-box;
+//   overflow: hidden;
+// }
+
+// .nav {
+//   display: flex;
+//   width: 1300px;
+//   flex-direction: row;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 150px;
+//   justify-content: center;
+//   column-gap: 50px;
+//   background-color: azure;
+// }
+
+// a {
+//   text-decoration: none;
+// }
+
+// li {
+//   list-style: none;
+// }
+
+// .nav-item-link {
+//   display: inline-block;
+//   position: relative;
+//   color: #0087ca;
+// }
+
+// .nav-item-link:after {
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   transform: scaleX(0);
+//   height: 2px;
+//   bottom: 0;
+//   left: 0;
+//   background-color: #0087ca;
+//   transform-origin: bottom right;
+//   transition: transform 0.25s ease-out;
+// }
+
+// .nav-item-link:hover:after {
+//   transform: scaleX(1);
+//   transform-origin: bottom left;
+// }
+
+// NAVIGATION UNDERLINE ANIMATION
+// <div class="wrapper">
+//       <div class="nav">
+//         <li class="nav-item">
+//           <a class="nav-item-link" href="#">Home</a>
+//         </li>
+//         <li class="nav-item">
+//           <a class="nav-item-link" href="#">Services</a>
+//         </li>
+//         <li class="nav-item">
+//           <a class="nav-item-link" href="#">Contact</a>
+//         </li>
+//       </div>
+//     </div>
+
+// HOURS BOX CSS HTML
+// CSS
+// body {
+//   background: #ffffff;
+//   font-family: "Roboto", Sans-Serif;
+// }
+
+// .wrapper {
+//   max-width: 800px;
+//   margin: auto;
+// }
+
+// /*** CUSTOM HTML HOURS BOX ***/
+// .hours-box {
+//   max-width: 370px;
+//   background: #ffffff;
+//   width: 100%;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   align-items: flex-start;
+//   border: 6px solid #008985;
+//   padding: 0 15px;
+//   font-family: "Roboto", Sans-Serif;
+// }
+
+// .hours-box p {
+//   font-size: 15px;
+//   width: 185px;
+//   margin: 0;
+//   border-bottom: 1px solid rgba(0, 137, 133, 0.3);
+//   padding: 15px 0;
+// }
+
+// .p-day {
+//   text-align: left;
+//   color: black;
+// }
+
+// .p-hours {
+//   text-align: right;
+//   font-weight: 600;
+//   color: #008985;
+// }
+
+// HOURS BOX HTML
+// <body>
+//     <div class="wrapper">
+//       <div class="hours-box">
+//         <p class="p-day">Monday</p>
+//         <p class="p-hours">9:00 AM - 5:00 PM</p>
+//         <p class="p-day">Tuesday</p>
+//         <p class="p-hours">9:00 AM - 7:00 PM</p>
+//         <p class="p-day">Wednesday</p>
+//         <p class="p-hours">9:00 AM - 5:00 PM</p>
+//         <p class="p-day">Thursday</p>
+//         <p class="p-hours">9:00 AM - 7:00 PM</p>
+//         <p class="p-day">Friday</p>
+//         <p class="p-hours">9:00 AM - 5:00 PM</p>
+//         <p class="p-day">Saturday</p>
+//         <p class="p-hours">9:00 AM - 3:00 PM</p>
+//         <p class="p-day">Sunday</p>
+//         <p class="p-hours">Closed</p>
+//       </div>
+//     </div>

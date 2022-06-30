@@ -1,7 +1,7 @@
 # Client-Site-Salon-Webpage
 Salon website for client: created through client's CMS provided by her CRM software.
 
-Note: Aside from the navigation section, the footer section and any forms and button elements (these channel directly to the CRM database), nearly all HTML code  is custom code inserted via a DIV element, while some standout functionality (reveal on scroll, fixed scroll btn, etc.) are JavaScript inserted by me. I attempted to leave comments around my code insertions, but I can't say they are easy to point out amongst the code.
+Note: Aside from the navigation section, the footer section and any forms and button elements (these channel directly to the CRM database), nearly all HTML code  is custom code inserted via a DIV element, while some standout functionality (reveal on scroll, fixed scroll btn, etc.) are JavaScript inserted by me. And while I attempted to have my HTML included in this repository, the CMS loves to inject it's own HTML within mine, and so I have uploaded my CSS edits only.
 
 # Highlights from my work:
 JavaScript (all pages)
